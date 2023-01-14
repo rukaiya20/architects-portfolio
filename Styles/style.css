@@ -11,7 +11,7 @@
 header{
     background-color: #fff4E7;
     width: 100%;
-    height: 1320px;
+    height: 1232px;
 }
 .container{
     /* width: 80%; */
@@ -73,7 +73,58 @@ nav ul li{
 }
 .header-banner img{
     width: 1140px;
-    margin-left: 110px;
+    margin-left: 120px;
     margin-top: 50px;
     border-radius: 8px;
+}
+/* --------->
+  header styles part end 
+  =======================*/
+  
+
+  .features{
+    display: flex;
+  }
+  .feature{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+    border-radius: 5px;
+    margin-left: 110px;
+    margin-top: 130px;
+  }
+  .features-descrption{
+    margin-top: 380px;
+    margin-left: 40px;
+  }
+  .description-main-titel{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+  }
+  .description-main-titel span{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+  }
+  .description-sub-titel{
+    font-weight: 700;
+    font-size: 45px;
+    color: #ff900e;
+  }
+  .description-info{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 500px;
+    margin-top: 24px;
+  }
+.btn-secondry{
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    background: #ff900e;
+    padding: 20px 25px;
+    border-radius: 5px;
+    margin-top: 45px;
 }
