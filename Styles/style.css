@@ -1,0 +1,79 @@
+/* google fonts ==>*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;500;600;700;800;900&display=swap');
+/* ----------------------------> */
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header styles part */
+header{
+    background-color: #fff4E7;
+    width: 100%;
+    height: 1320px;
+}
+.container{
+    /* width: 80%; */
+     
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 6%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 50px ;
+}
+.nav-titel{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-top: 102px;
+    
+}
+.navbar{
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    margin-top: 118px;
+}
+.header-info{
+    margin-top: 120px;
+}
+.header-titel{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    width: 870px;
+    text-align: center;
+    margin-left: 200px;
+}
+.header-details{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 868px;
+    height: 52px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.btn-primary{
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 25px;
+    background: #ff900e;
+    border-radius: 5px;
+    margin-left: 550px;
+    margin-top: 45px;
+}
+.header-banner img{
+    width: 1140px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+}
