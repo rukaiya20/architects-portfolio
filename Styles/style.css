@@ -226,10 +226,13 @@ nav ul li{
     border-radius: 8px;
     border: 5px solid #FF900E;
     text-align: center;
+    transition: transform 2s;
 }
-/* .chart:hover{
-    transform: rotate(90deg);
-} */
+.chart:hover{
+    transform: rotate(45deg);
+    background-color: #ff870e55;
+    border: 2px solid rgba(245, 80, 80, 0.738);
+}
 .chart img{
     margin-top: 45px;
     margin-bottom: 10px;
@@ -273,6 +276,10 @@ nav ul li{
     background: linear-gradient(#ff8f0eb5,rgba(255, 0, 0, 0.66));
     border-radius: 5px;
 } 
+.service:hover{
+    background: linear-gradient(#2e5af7b5,rgba(255, 0, 0, 0.66));
+    border: 2px solid black;
+}
 .service img{
     width: 40px;
     padding-top: 10px;  
