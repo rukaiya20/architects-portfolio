@@ -163,7 +163,7 @@ nav ul li{
     font-size: 20px;
     color: #131313;
 }
-.ecperience-info-description{
+.experience-info-description{
     font-weight: 400;
     font-size: 16px;
     color: #727272;
@@ -323,12 +323,12 @@ nav ul li{
     width: 542px;
 
   }
-  .soponsor-company{
+  .sponsor-company{
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
   }
-  .soponsors-company img{
+  .sponsors-company img{
     filter: grayscale(100%);
   }
 /* --------->
@@ -339,7 +339,6 @@ nav ul li{
   =======================*/
   .footer{
     width: 1000px;
-    /* height: 80px; */
     background: #fff4E7;
     margin-top: 130px;
     margin-bottom: 100px;
@@ -354,5 +353,96 @@ nav ul li{
     padding-bottom: 35px;
   }
 /* --------->
-  footer styles part start 
+  footer styles part end 
   =======================*/
+
+  @media only screen and (max-width:688px){
+    header{
+      width: 100%;
+    }
+    nav{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+    nav ul li{
+      width: 100%;
+      margin: 0px;
+      text-align: center;
+    }
+    .header-details, .header-info, .header-titel, .navbar, .nav-titel{
+      width: 100%;
+      margin-left: 0px;
+    }
+    .header-banner img{
+      width: 100%;
+      margin: 0px;
+    }
+    .feature{
+         grid-template-columns: repeat(1, 1fr);
+         justify-content: center;
+    }
+    .features{
+      flex-direction: column;
+      width: 100%;
+    }
+    .description-main-titel{
+      width: 100%;
+    }
+    .description-info{
+      width: 100%;
+    }
+    .experience{
+      display: grid ;
+      grid-template-columns: repeat(1, 1fr);
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+    }
+    .experience-banner{
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+    }
+    .experience-titel, .experience-sub-titel, .experience-info-description, .experience-info-titel{
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+    }
+    .experience-info-description{
+      width: 100%;
+    }
+    .fact-titel{
+      width: 100%;
+    }
+    .fact-info{
+      width: 100%;
+    }
+    .fact-charts{
+      flex-direction: column;
+      gap: 15px;
+    }
+    .services{
+      grid-template-columns: repeat(1, 1fr);
+      width: 100%;
+    }
+    .sponsors-titel{
+      width: 100%;
+    }
+    .sponsors-info{
+      width: 100%;
+    }
+    .sponsor-company{
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer{
+      width: 100%;
+      margin: 0px;
+    }
+    .footer-info{
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+  }
