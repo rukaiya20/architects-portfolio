@@ -8,6 +8,7 @@
     border: none;
     font-family: 'Work Sans', sans-serif;
 }
+
 /* --------->
  header styles part start 
   =======================*/
@@ -120,7 +121,7 @@ nav ul li{
     width: 500px;
     margin-top: 24px;
   }
-.btn-secondry{
+.btn-secondary{
     font-weight: 600;
     font-size: 20px;
     color: #fff;
@@ -139,8 +140,8 @@ nav ul li{
 .experience{
     display: flex;
     margin-top: 130px;
-    margin-left: 80px;
-    
+    margin-left: 80px; 
+
 }
 .experience-titel{
     font-weight: 700;
@@ -196,6 +197,7 @@ nav ul li{
 /* --------->
   experience styles part end 
   =======================*/
+
 /* --------->
   facts styles part start 
   =======================*/
@@ -334,6 +336,7 @@ nav ul li{
 /* --------->
   sponsors styles part end 
   =======================*/
+
 /* --------->
   footer styles part start 
   =======================*/
@@ -356,7 +359,13 @@ nav ul li{
   footer styles part end 
   =======================*/
 
+  /* ============>
+     media query fo responsive mobile device
+     ===============================================>*/
+
   @media only screen and (max-width:688px){
+    /* header part
+    -------------------> */
     header{
       width: 100%;
       height: 1100px;
@@ -383,6 +392,12 @@ nav ul li{
       margin-left: 0;
       margin-bottom: 10px;
     }
+    /* header part
+    -----------------------> */
+
+
+    /* feature part
+    -----------------------> */
     .feature{
       grid-template-columns: repeat(1, 1fr);
       justify-content: center;
@@ -398,6 +413,11 @@ nav ul li{
     .description-info{
       width: 100%;
     }
+    /* feature part
+    -----------------------> */
+
+    /* experience part
+    -----------------------> */
     .experience{
       display: grid ;
       grid-template-columns: repeat(1, 1fr);
@@ -418,6 +438,11 @@ nav ul li{
     .experience-info-description{
       width: 100%;
     }
+    ./* experience part
+    -----------------------> */
+
+    /* fact part
+    -----------------------> */
     .fact-titel{
       width: 100%;
     }
@@ -428,10 +453,20 @@ nav ul li{
       flex-direction: column;
       gap: 55px;
     }
+    /* fact part
+    -----------------------> */
+
+    /* service part
+    -----------------------> */
     .services{
       grid-template-columns: repeat(1, 1fr);
       width: 100%;
     }
+    /* service part
+    -----------------------> */
+
+    /* sponsor part
+    -----------------------> */
     .sponsors-titel{
       width: 100%;
     }
@@ -442,6 +477,11 @@ nav ul li{
       flex-direction: column;
       align-items: center;
     }
+    /* sponsor part
+    -----------------------> */
+
+    /* footer part
+    -----------------------> */
     .footer{
       width: 100%;
       margin: 0px;
@@ -451,4 +491,9 @@ nav ul li{
       margin: 0px;
       padding: 0px;
     }
+    /* footer part
+    -----------------------> */
   }
+
+  /* media query for mobile device end
+  =========================================> */
