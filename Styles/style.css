@@ -425,7 +425,7 @@ nav ul li{
     }
     .fact-charts{
       flex-direction: column;
-      gap: 15px;
+      gap: 55px;
     }
     .services{
       grid-template-columns: repeat(1, 1fr);
