@@ -379,12 +379,13 @@ nav ul li{
       margin: 0px;
     }
     .feature{
-         grid-template-columns: repeat(1, 1fr);
-         justify-content: center;
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: center;
     }
     .features{
       flex-direction: column;
       width: 100%;
+      margin-left: 0px;
     }
     .description-main-titel{
       width: 100%;
